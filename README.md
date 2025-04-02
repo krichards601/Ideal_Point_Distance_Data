@@ -21,8 +21,8 @@ Code_1 & Code_2: 3 Letter ISO-3166-1 Alpha 3 codes for Country A and Country B r
 sorted : Concatonated string where ISO3 code that is alphabetically first in the pair is the first in the sorted string. Example if Code_1 is DEU and Code_2 is CHN OR Code_1 is CHN and Code_2 is DEU, sorted would be CHN_DEU for both cases.
 Country A: Name of Code_1 country.
 Country B: Name of Code_2 country.
-ipd_all_full: Ideal Point Distnance (IPD) measure using the full sample of UN votes for all vote categories.
-ipd_econ_full: IPD measure using the subset of only economic votes. By construction these votes start in the 1971.
+ipd_all_full: Ideal Point Distance (IPD) estimated using the full sample of UN votes. In this version, we use all vote categories and all available years starting from 1946.
+ipd_econ_full: IPD measure using the subset of only economic votes. By construction these votes start in 1971.
 ipd_all_short: IPD measure using the sample of all UN votes but beginning after 1991. 
 net_allign_af, net_allign_ef, net_allign_as: US-China IPD normalized to [-1,1] for Country A, where 1 indicates complete US allingment and -1 indicates complete China allignment. Suffixes af, ef, as refer to which IPD (all votes-full, economic votes-full, or all votes-short) was used to generate the segmented distribution.
 net_allign_af_b, net_allign_ef_b, net_allign_as_b: US-China normalized IPD for Country B.
