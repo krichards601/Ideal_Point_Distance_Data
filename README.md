@@ -29,7 +29,7 @@ net_allign_af_b, net_allign_ef_b, net_allign_as_b: US-China normalized IPD for C
 eu: dummy variable indicating if at elast one country in the country-pair is part of the EU27.
 ```
 Here you can access our dataset containing various Ideal Point Distances measures along with documentation on variable definition and IPD generation process. 
-Due to size constraints, we had to split our IPD dataset by year, though the process of reconstrucrting the full panel is straightforward. 
+Due to size constraints, we had to split our IPD dataset by year, though the process of reconstrucrting the full panel is straightforward. IPD.7z contains csvs for all years.
 
 Ideal Point Distances are generated using a Bayesian estimation approach based on observed UN voting behavior from Bailey et al 2017. UN Voting data and associated code for the Markov Chain Monte Carlo simulation can be found at the link below.
 
