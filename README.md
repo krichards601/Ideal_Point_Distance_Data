@@ -30,4 +30,11 @@ eu: dummy variable indicating if at elast one country in the country-pair is par
 ```
 Here you will our datasets containing various Ideal Point Estimates and bloc classifications along with documentation on variable definition and IPD generation process. 
 Due to size constraints, we had to split our IPD dataset by year, though the process of reconstrucrting the full panel is straightforward. 
-See "IPD Information and Variable Definitions.docx" for more information on our dataset.
+
+Ideal Point Distances are generated using a Bayesian estimation approach based on observed UN voting behavior from Bailey et al 2017. UN Voting data and associated code for the Markov Chain Monte Carlo simulation can be found at the link below.
+[Ideal Point Distance Data Generating Process](https://github.com/evoeten/United-Nations-General-Assembly-Votes-and-Ideal-Points/tree/master)
+
+Citation: Bailey, Michael A., Anton Strezhnev, and Erik Voeten. "Estimating dynamic state preferences from United Nations voting data." Journal of Conflict Resolution 61, no. 2 (2017): 430-456.
+
+
+
