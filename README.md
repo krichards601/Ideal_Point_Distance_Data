@@ -28,11 +28,14 @@ net_allign_af, net_allign_ef, net_allign_as: US-China IPD normalized to [-1,1] f
 net_allign_af_b, net_allign_ef_b, net_allign_as_b: US-China normalized IPD for Country B.
 eu: dummy variable indicating if at elast one country in the country-pair is part of the EU27.
 ```
-Here you will our datasets containing various Ideal Point Estimates and bloc classifications along with documentation on variable definition and IPD generation process. 
+Here you can access our dataset containing various Ideal Point Distances measures along with documentation on variable definition and IPD generation process. 
 Due to size constraints, we had to split our IPD dataset by year, though the process of reconstrucrting the full panel is straightforward. 
 
 Ideal Point Distances are generated using a Bayesian estimation approach based on observed UN voting behavior from Bailey et al 2017. UN Voting data and associated code for the Markov Chain Monte Carlo simulation can be found at the link below.
-[Ideal Point Distance Data Generating Process](https://github.com/evoeten/United-Nations-General-Assembly-Votes-and-Ideal-Points/tree/master)
+
+[UN Voting Data and Associated Code](https://github.com/evoeten/United-Nations-General-Assembly-Votes-and-Ideal-Points/tree/master)
+
+For a more in depth description of the methodology used to generate ideal point distances, see [Bailey et al., 2017](https://www.jstor.org/stable/26363889?seq=1).
 
 Citation: Bailey, Michael A., Anton Strezhnev, and Erik Voeten. "Estimating dynamic state preferences from United Nations voting data." Journal of Conflict Resolution 61, no. 2 (2017): 430-456.
 
